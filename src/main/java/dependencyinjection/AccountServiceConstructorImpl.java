@@ -4,9 +4,9 @@ import pojobeans.Account;
 import pojobeans.AccountRepository;
 import pojobeans.AccountService;
 
-public class AccountServiceConstructorIpml implements AccountService {
+public class AccountServiceConstructorImpl implements AccountService {
     private AccountRepository accountRepository;
-    public AccountServiceConstructorIpml(AccountRepository accountRepository){
+    public AccountServiceConstructorImpl(AccountRepository accountRepository){
         this.accountRepository = accountRepository;
     }
     @Override

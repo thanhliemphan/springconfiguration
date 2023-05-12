@@ -1,4 +1,4 @@
-package pojobean;
+package pojobeans;
 
 public interface AccountService {
     void transferMoney(long fromAccountId, long toAccountId, double amount);

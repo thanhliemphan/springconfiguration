@@ -1,4 +1,4 @@
-package pojobean;
+package pojobeans;
 
 public interface AccountRepository {
     void insert(Account account);

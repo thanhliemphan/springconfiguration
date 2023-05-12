@@ -1,4 +1,4 @@
-package pojobean;
+package pojobeans;
 
 import java.util.Date;
 

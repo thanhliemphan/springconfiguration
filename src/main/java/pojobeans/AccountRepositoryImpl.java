@@ -1,4 +1,4 @@
-package xmlbaseconfiguration;
+package pojobeans;
 
 import pojobeans.Account;
 import pojobeans.AccountRepository;

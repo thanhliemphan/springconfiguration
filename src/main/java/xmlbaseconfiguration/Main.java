@@ -1,4 +1,4 @@
-package pojobeans;
+package xmlbaseconfiguration;
 
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 import pojobeans.AccountService;

@@ -4,12 +4,11 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
     <!-- bean definitions here -->
-    <bean id = "account1" class = "helloworld.Account">
+    <bean id = "accountRepository" class = "pojobeans.AccountRepositoryImpl">
     </bean>
-    <bean id = "account2" class = "helloworld.Account">
-        <property name="id" value="1"/>
-        <property name="ownerName" value="Aric"/>
-        <property name="balance" value="100.000"/>
+    <bean id = "accountService" class = "dependencyinjection.AccountServiceConstructorImpl">
+<!--        <property name="accountRepository" ref="accountRepository"/>-->
+        <constructor-arg name="accountRepository" ref="accountRepository"/>
     </bean>
 </beans>
 
